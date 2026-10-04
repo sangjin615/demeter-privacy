@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Demeter 개인정보 처리방침 · Privacy Policy</title>
+<style>
+  :root {
+    --bg: #fbf6ea; --card: #fffdf7; --text: #3a2c1c; --muted: #7a6650;
+    --accent: #6b8f3a; --line: #e6dbc4;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #1f1a14; --card: #29231b; --text: #efe6d6; --muted: #b8a68c; --accent: #a5c46e; --line: #3d3428; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text);
+    font: 16px/1.7 -apple-system, "Segoe UI", "Malgun Gothic", "Apple SD Gothic Neo", sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
+  header { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; }
+  h1 { font-size: 1.6rem; margin: 0; }
+  h2 { font-size: 1.15rem; margin: 2em 0 .5em; padding-bottom: .3em; border-bottom: 1px solid var(--line); }
+  .meta { color: var(--muted); font-size: .9rem; margin: .4em 0 1.6em; }
+  .lang button { border: 1px solid var(--line); background: var(--card); color: var(--text);
+    padding: 6px 14px; border-radius: 999px; cursor: pointer; font: inherit; font-size: .9rem; }
+  .lang button[aria-pressed="true"] { background: var(--accent); color: #fff; border-color: var(--accent); }
+  table { width: 100%; border-collapse: collapse; margin: .6em 0; font-size: .95rem; }
+  th, td { border: 1px solid var(--line); padding: 8px 10px; text-align: left; vertical-align: top; }
+  th { background: var(--card); }
+  .table-wrap { overflow-x: auto; }
+  code { background: var(--card); border: 1px solid var(--line); border-radius: 4px; padding: 1px 5px; font-size: .88em; word-break: break-all; }
+  .box { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 12px 16px; }
+  [data-lang] { display: none; }
+  body.ko [data-lang="ko"], body.en [data-lang="en"] { display: block; }
+</style>
+</head>
+<body class="ko">
+<main>
+<header>
+  <h1><span data-lang="ko">Demeter 개인정보 처리방침</span><span data-lang="en">Demeter Privacy Policy</span></h1>
+  <div class="lang">
+    <button type="button" data-set="ko" aria-pressed="true">한국어</button>
+    <button type="button" data-set="en" aria-pressed="false">English</button>
+  </div>
+</header>
+
+<!-- ───────────────────────── 한국어 ───────────────────────── -->
+<section data-lang="ko">
+<p class="meta">시행일: 2026년 10월 5일 · 운영자: Zinius Games</p>
+
+<div class="box">
+<strong>요약</strong> — Demeter는 계정, 이름, 이메일 등 사람을 알아볼 수 있는 정보를 요구하지 않습니다. 게임 설정과 플레이 기록은 기본적으로 플레이어의 PC에만 저장되며, 플레이어가 게임 안의 <strong>설문을 직접 제출할 때만</strong> 설문 답변과 익명 플레이 기록이 개발팀에 전송됩니다.
+</div>
+
+<h2>1. 처리하는 정보와 수집 방법</h2>
+<p><strong>가. PC에만 저장되는 정보 (외부로 전송되지 않음)</strong></p>
+<div class="table-wrap"><table>
+<tr><th>항목</th><th>저장 위치</th></tr>
+<tr><td>게임 설정(음량, 음소거, 전체화면, 연출 배속, 언어), 진행 정보(황금 씨앗, 상점 강화 단계, 튜토리얼 시청 여부, 선택한 난이도)</td><td>Windows 레지스트리 <code>HKEY_CURRENT_USER\Software\Zinius Games\Demeter</code></td></tr>
+<tr><td>익명 플레이 기록: 런 결과(난이도, 승리/패배, 도달 스테이지·라운드, 플레이 시간, 획득 황금 씨앗), 품목 선택·스킵, 상점 구매, 튜토리얼 완료 여부, 기록 시각(UTC), 게임을 켤 때마다 새로 만들어지는 무작위 세션 ID(8자리)</td><td><code>%USERPROFILE%\AppData\LocalLow\Zinius Games\Demeter\Analytics\</code></td></tr>
+</table></div>
+
+<p><strong>나. 설문을 제출할 때만 전송되는 정보</strong></p>
+<p>로비의 "설문 참여"에서 플레이어가 <strong>제출하기</strong>를 누른 경우에만 아래 정보가 전송됩니다. 제출은 선택 사항이며, 제출하지 않아도 게임 이용에 제한이 없습니다.</p>
+<ul>
+<li>설문 답변(객관식 응답, 자유 서술 답변)</li>
+<li>위 "가"의 익명 플레이 기록 중 아직 전송되지 않은 부분</li>
+<li>무작위 세션 ID</li>
+</ul>
+<p>자유 서술란에는 이름, 연락처 등 개인정보를 적지 말아 주십시오. 적으신 경우에도 운영자는 이를 다른 목적으로 이용하지 않으며, 요청 시 삭제합니다.</p>
+
+<p><strong>다. 자동으로 생성되는 정보</strong></p>
+<p>설문을 전송하는 과정에서 플레이어의 IP 주소가 통신을 위해 Google 서버에 전달될 수 있습니다. 운영자는 IP 주소를 받거나 저장하지 않습니다. 운영자는 Unity의 분석·광고·크래시 리포트 서비스와 하드웨어 통계 수집 기능을 사용하지 않습니다.</p>
+
+<h2>2. 이용 목적</h2>
+<p>게임 밸런스와 난이도 조정, 버그 확인과 수정, 튜토리얼 개선에만 이용합니다. 광고, 마케팅, 프로필 작성에는 이용하지 않습니다.</p>
+
+<h2>3. 보유 기간과 파기</h2>
+<ul>
+<li>설문으로 전송된 정보: 수집일로부터 <strong>1년</strong>이 지나면 지체 없이 삭제합니다. 삭제 요청이 있으면 그 전이라도 삭제합니다.</li>
+<li>PC에만 저장되는 정보: 플레이어가 직접 삭제할 수 있습니다(아래 6번 참고).</li>
+<li>파기 방법: 전자 파일은 복구할 수 없는 방법으로 삭제합니다.</li>
+</ul>
+
+<h2>4. 처리 위탁 및 국외 이전</h2>
+<p>설문 데이터의 수신과 보관을 위해 아래 서비스를 이용하며, 이 과정에서 정보가 국외로 이전됩니다.</p>
+<div class="table-wrap"><table>
+<tr><th>받는 자</th><td>Google LLC (Google Apps Script, Google 드라이브)</td></tr>
+<tr><th>이전 국가</th><td>미국 등 Google 데이터센터 소재 국가</td></tr>
+<tr><th>이전 일시·방법</th><td>플레이어가 설문을 제출할 때 암호화된 네트워크(HTTPS)로 전송</td></tr>
+<tr><th>이전 항목</th><td>설문 답변, 익명 플레이 기록, 무작위 세션 ID</td></tr>
+<tr><th>보유·이용 기간</th><td>위 3번과 같음</td></tr>
+</table></div>
+<p>국외 이전을 원하지 않으시면 설문을 제출하지 않으시면 됩니다. 그 밖에 제3자에게 정보를 제공하지 않습니다.</p>
+
+<h2>5. 안전성 확보 조치</h2>
+<p>전송 구간을 HTTPS로 암호화하고, 설문 데이터가 저장된 Google 계정과 문서의 접근 권한을 운영자로 제한합니다.</p>
+
+<h2>6. 플레이어의 권리와 행사 방법</h2>
+<ul>
+<li><strong>전송된 설문 데이터의 열람·삭제 요청:</strong> 아래 연락처로 설문을 제출한 날짜와 대략적인 시각, 기억나는 답변 내용을 알려 주시면 확인 후 삭제합니다. 이름 등 식별 정보를 받지 않기 때문에, 해당 데이터를 찾으려면 이 정보가 필요합니다.</li>
+<li><strong>PC에 저장된 정보 삭제:</strong> 위 1번의 폴더와 레지스트리 키를 지우면 모든 설정, 진행 정보, 플레이 기록이 삭제됩니다. 게임을 삭제해도 이 데이터는 남아 있을 수 있습니다.</li>
+</ul>
+
+<h2>7. 아동의 개인정보</h2>
+<p>Demeter는 이름, 연락처 등 아동을 알아볼 수 있는 정보를 수집하지 않습니다. 만 14세 미만 아동은 설문의 자유 서술란에 개인정보를 적지 않도록 보호자의 지도를 부탁드립니다.</p>
+
+<h2>8. 개인정보 보호책임자 및 문의</h2>
+<p>운영자: Zinius Games<br>이메일: <a href="mailto:yess7079@gmail.com">yess7079@gmail.com</a></p>
+<p>개인정보 침해에 대한 신고나 상담은 개인정보침해신고센터(privacy.kisa.or.kr, 국번 없이 118) 또는 개인정보 분쟁조정위원회(www.kopico.go.kr, 1833-6972)에 문의하실 수 있습니다.</p>
+
+<h2>9. 처리방침의 변경</h2>
+<p>이 방침이 바뀌면 이 페이지에 변경 내용과 시행일을 공지합니다.</p>
+</section>
+
+<!-- ───────────────────────── English ───────────────────────── -->
+<section data-lang="en">
+<p class="meta">Effective date: October 5, 2026 · Operator: Zinius Games</p>
+
+<div class="box">
+<strong>Summary</strong> — Demeter does not ask for an account, your name, your email, or anything else that identifies you. Settings and play logs stay on your PC. Your survey answers and anonymous play logs are sent to the developers <strong>only when you choose to submit</strong> the in-game survey.
+</div>
+
+<h2>1. What we process and how</h2>
+<p><strong>a. Data stored only on your PC (never sent)</strong></p>
+<div class="table-wrap"><table>
+<tr><th>Data</th><th>Location</th></tr>
+<tr><td>Settings (volume, mute, fullscreen, playback speed, language) and progress (Golden Seeds, shop upgrade levels, tutorial completion, selected difficulty)</td><td>Windows registry <code>HKEY_CURRENT_USER\Software\Zinius Games\Demeter</code></td></tr>
+<tr><td>Anonymous play logs: run results (difficulty, win/loss, stage and round reached, play time, Golden Seeds earned), item picks and skips, shop purchases, tutorial completion, timestamps (UTC), and a random 8-character session ID that is regenerated every time the game starts</td><td><code>%USERPROFILE%\AppData\LocalLow\Zinius Games\Demeter\Analytics\</code></td></tr>
+</table></div>
+
+<p><strong>b. Data sent only when you submit the survey</strong></p>
+<p>The data below is sent only when you press <strong>Submit</strong> in the lobby's survey. Submitting is optional, and the game works the same if you don't.</p>
+<ul>
+<li>Your survey answers (multiple choice and free text)</li>
+<li>The anonymous play logs from (a) that have not been sent before</li>
+<li>The random session ID</li>
+</ul>
+<p>Please don't write personal details such as your name or contact information in the free-text answers. If you do, we won't use them for any other purpose and will delete them on request.</p>
+
+<p><strong>c. Data generated automatically</strong></p>
+<p>When the survey is sent, your IP address may reach Google's servers as part of the connection. We do not receive or store IP addresses. We do not use Unity's analytics, ads, crash reporting, or hardware statistics services.</p>
+
+<h2>2. Why we use it</h2>
+<p>Only to balance difficulty, find and fix bugs, and improve the tutorial. Never for advertising, marketing, or profiling.</p>
+
+<h2>3. Retention and deletion</h2>
+<ul>
+<li>Survey data: deleted promptly <strong>one year</strong> after collection, or earlier on request.</li>
+<li>Data on your PC: you can delete it yourself (see section 6).</li>
+<li>Electronic files are deleted so they cannot be recovered.</li>
+</ul>
+
+<h2>4. Service providers and international transfer</h2>
+<p>We use the service below to receive and store survey data, which means the data is transferred outside your country.</p>
+<div class="table-wrap"><table>
+<tr><th>Recipient</th><td>Google LLC (Google Apps Script, Google Drive)</td></tr>
+<tr><th>Countries</th><td>The United States and other countries where Google operates data centers</td></tr>
+<tr><th>When and how</th><td>Over an encrypted connection (HTTPS) when you submit the survey</td></tr>
+<tr><th>Data</th><td>Survey answers, anonymous play logs, random session ID</td></tr>
+<tr><th>Retention</th><td>Same as section 3</td></tr>
+</table></div>
+<p>If you don't want this transfer, simply don't submit the survey. We don't share your data with anyone else.</p>
+
+<h2>5. Security</h2>
+<p>Data is encrypted in transit with HTTPS, and access to the Google account and documents that store survey data is limited to the operator.</p>
+
+<h2>6. Your rights</h2>
+<ul>
+<li><strong>Access or delete submitted survey data:</strong> email us with the date and approximate time you submitted and any answers you remember. Because we don't collect names or other identifiers, we need these details to find your data.</li>
+<li><strong>Delete data on your PC:</strong> delete the folder and registry key listed in section 1. This removes all settings, progress, and play logs. Uninstalling the game may leave this data in place.</li>
+</ul>
+
+<h2>7. Children</h2>
+<p>Demeter does not collect names, contact information, or other data that identifies children. We ask parents to make sure children don't write personal details in the survey's free-text answers.</p>
+
+<h2>8. Contact</h2>
+<p>Operator: Zinius Games<br>Email: <a href="mailto:yess7079@gmail.com">yess7079@gmail.com</a></p>
+
+<h2>9. Changes to this policy</h2>
+<p>If this policy changes, we will post the changes and the new effective date on this page.</p>
+</section>
+</main>
+<script>
+  (function () {
+    var buttons = document.querySelectorAll('.lang button');
+    function setLang(lang) {
+      document.body.className = lang;
+      document.documentElement.lang = lang;
+      buttons.forEach(function (b) { b.setAttribute('aria-pressed', String(b.dataset.set === lang)); });
+    }
+    buttons.forEach(function (b) { b.addEventListener('click', function () { setLang(b.dataset.set); }); });
+    var nav = (navigator.language || '').toLowerCase();
+    var hash = location.hash.replace('#', '');
+    setLang(hash === 'en' || hash === 'ko' ? hash : (nav.indexOf('ko') === 0 ? 'ko' : 'en'));
+  })();
+</script>
+</body>
+</html>
